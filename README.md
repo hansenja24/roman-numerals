@@ -35,6 +35,10 @@ Output: IV
 Input: 9
 Output: IX
 
+7. Program will not convert any number over 3,999.
+Input: 4,444
+Output: Alert "Please enter number less than 4,000"
+
 
 ## Setup/Installation Requirements
 

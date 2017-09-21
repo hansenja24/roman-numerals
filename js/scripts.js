@@ -108,7 +108,12 @@ $(document).ready(function() {
 
     splitInput.reverse();
 
-    var result = romanFour(splitInput[3]) + romanThree(splitInput[2]) + romanTwo(splitInput[1]) + romanOne(splitInput[0]);
+    if(splitInput[3] >= 4){
+      alert("Please enter a number less than 4,000");
+    } else {
+      var result = romanFour(splitInput[3]) + romanThree(splitInput[2]) + romanTwo(splitInput[1]) + romanOne(splitInput[0]);
+    }
+
     // for(i = 0; i < splitInput.length; i++){
     //   var result = romanOne(splitInput[i]);
     // }
