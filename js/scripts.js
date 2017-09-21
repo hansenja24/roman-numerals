@@ -1,7 +1,9 @@
 //********************Business Logic************************
+
 var romanOne = function(number) {
+
   var value = "";
-  if(number >= 5){
+  if(number >= 5 && number < 9){
     value += "V"
     number = number - 5;
     if(number > 0) {
@@ -15,15 +17,19 @@ var romanOne = function(number) {
       value += "I";
     }
   }
-  else if(number = 4){
+  else if(number == 4){
     value = "IV";
+  }
+  else if(number == 9){
+    value = "IX";
   }
   return value;
 }
 
 var romanTwo = function(number) {
+
   var value = "";
-  if(number >= 5){
+  if(number >= 5 && number < 9){
     value += "L"
     number = number - 5;
     if(number > 0) {
@@ -38,15 +44,19 @@ var romanTwo = function(number) {
     }
 
   }
-  else if(number = 4){
+  else if(number == 4){
     value = "XL";
+  }
+  else if(number == 9){
+    value = "XC";
   }
   return value;
 }
 
 var romanThree = function(number) {
+    debugger;
   var value = "";
-  if(number >= 5){
+  if(number >= 5 && number < 9){
     value += "D"
     number = number - 5;
     if(number > 0) {
@@ -61,8 +71,11 @@ var romanThree = function(number) {
     }
 
   }
-  else if(number = 4){
+  else if(number == 4){
     value = "CD";
+  }
+  else if(number == 9){
+    value = "CM";
   }
   return value;
 }

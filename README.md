@@ -31,6 +31,10 @@ Output: MM
 Input: 4
 Output: IV
 
+6. Program converts numbers to Roman Numerals including the numeral subtraction rule for the number 9.
+Input: 9
+Output: IX
+
 
 ## Setup/Installation Requirements
 
