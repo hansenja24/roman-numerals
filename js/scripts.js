@@ -59,25 +59,17 @@ var romanThree = function(number) {
   return value;
 }
 
-// var romanFour = function(number) {
-//   var value = "";
-//   if(number >= 5){
-//     value += "V"
-//     number = number - 5;
-//     if(number > 0) {
-//       for(i = 0; i < number; i++) {
-//         value += "I";
-//     }
-//   }
-// }
-//   else if(number < 4) {
-//     for(i = 0; i < number; i++) {
-//       value += "I";
-//     }
-//
-//   }
-//   return value;
-// }
+var romanFour = function(number) {
+  var value = "";
+
+  if(number < 4) {
+    for(i = 0; i < number; i++) {
+      value += "M";
+    }
+
+  }
+  return value;
+}
 
 
 
@@ -95,7 +87,7 @@ $(document).ready(function() {
 
     splitInput.reverse();
 
-    var result = romanThree(splitInput[2]) + romanTwo(splitInput[1]) + romanOne(splitInput[0]);
+    var result = romanFour(splitInput[3]) + romanThree(splitInput[2]) + romanTwo(splitInput[1]) + romanOne(splitInput[0]);
     // for(i = 0; i < splitInput.length; i++){
     //   var result = romanOne(splitInput[i]);
     // }
