@@ -10,27 +10,26 @@ A website created with JS and HTML where a user can submit a number and determin
 
 
 ### Specs
-1. Program converts only up to 3,999.
 
-2. Program converts numbers to Roman Numerals with only "I" and "V".
+1. Program converts numbers to Roman Numerals with only "I" and "V".
 Input: 8
 Output: VIII
 
-3. Program converts numbers to Roman Numerals adding "X" and "L".
+2. Program converts numbers to Roman Numerals adding "X" and "L".
 Input: 88
 Output LXXXVIII
 
-4. Program converts numbers to Roman Numerals adding "C" and "D".
+3. Program converts numbers to Roman Numerals adding "C" and "D".
 Input: 780
 Output: DCC
 
-5. Program converts numbers to Roman Numerals adding "M".
+4. Program converts numbers to Roman Numerals adding "M".
 Input: 2,000
 Output: MM
 
-6. Program converts numbers to Roman Numerals including the numeral subtraction rule.
-Input: 99
-Output: XCIX
+5. Program converts numbers to Roman Numerals including the numeral subtraction rule for the number 4.
+Input: 4
+Output: IV
 
 
 ## Setup/Installation Requirements

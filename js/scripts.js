@@ -14,7 +14,9 @@ var romanOne = function(number) {
     for(i = 0; i < number; i++) {
       value += "I";
     }
-
+  }
+  else if(number = 4){
+    value = "IV";
   }
   return value;
 }
@@ -36,6 +38,9 @@ var romanTwo = function(number) {
     }
 
   }
+  else if(number = 4){
+    value = "XL";
+  }
   return value;
 }
 
@@ -55,6 +60,9 @@ var romanThree = function(number) {
       value += "C";
     }
 
+  }
+  else if(number = 4){
+    value = "CD";
   }
   return value;
 }
